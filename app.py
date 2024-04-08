@@ -4,12 +4,12 @@ from datetime import datetime
 from flask import flash
 
 app = Flask(__name__)
-app.secret_key = '830245d3f139432a1b3f9e8dd31a30541fbbcd0b879c6433' 
+app.secret_key = '' 
 # Configure MySQL
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'theLonewolf_20'
-app.config['MYSQL_DB'] = 'ccms'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = ''
 mysql = MySQL(app)
 
 
